@@ -23,7 +23,10 @@ if uploaded_file:
 
         # Pre-fill inputs based on the selected row or manual entry
         input_data = {}
-        columns = ['Age', 'Gender', 'Education Level', 'Job Title', 'Years of Experience']
+        columns = ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
+           'floors', 'view', 'condition', 'sqft_above', 'sqft_basement',
+           'yr_built', 'city']
+
 
         st.write("Enter or edit the input data for prediction:")
         for col in columns:
